@@ -1,7 +1,8 @@
 import React from 'react'
 import Home from '../../component/Home.'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Create from '../../component/Create';
+import Create from '../../component/user/Create';
+import Update from '../../component/user/Update ';
 
 function Index() {
 
@@ -12,6 +13,9 @@ function Index() {
           </Routes>
           <Routes>
             <Route path="/create" element={<Create/>}/> 
+          </Routes>
+          <Routes>
+            <Route path="/update" element={<Update/>}/> 
           </Routes>
         </BrowserRouter>
       );
