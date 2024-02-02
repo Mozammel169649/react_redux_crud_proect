@@ -25,7 +25,6 @@ function Home() {
                     <Button variant="danger">Delete</Button>
                 </td>
               </tr>
-             
         </tbody>
       </Table>
     </div>
